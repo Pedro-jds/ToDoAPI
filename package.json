@@ -5,14 +5,17 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon ./src/app.js"
+    "dev": "nodemon ./src/app.js"
   },
   "author": "Pedro jr",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "swagger-ui-express": "^4.1.6"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "swagger-autogen": "^2.13.0"
   }
 }
