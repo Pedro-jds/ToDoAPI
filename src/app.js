@@ -22,15 +22,10 @@ TarefaCon(app)
 //index
 app.get('/', function (req, res) {
 res.send(`<h1>Bem vindo a to do API</h1>
-        <p>Acesse:https://github.com/Pedro-jds/ToDoAPI</p>`)
+         <a href="http://localhost:3000/api-docs/"><button>Documentação interativa</button><a>
+        <h3><a href="https://github.com/Pedro-jds/ToDoAPI">Acesse meu github para mais detalhes</a></h3>`)
 
 })
-
-app.post('/', function(request, response){
-  console.log(request.body);      // your JSON
-   response.send(request.body);    // echo the result back
-});
-
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)

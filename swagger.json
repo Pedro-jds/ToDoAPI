@@ -16,13 +16,13 @@
   "paths": {
     "/usuario": {
       "get": {
-        "tags": [],
+        "tags": ["Usuario"],
         "description": "",
         "parameters": [],
         "responses": {}
       },
       "post": {
-        "tags": [],
+        "tags": ["Usuario"],
         "description": "",
         "parameters": [
           {
@@ -53,7 +53,7 @@
     },
     "/usuario/{id}": {
       "get": {
-        "tags": [],
+        "tags": ["Usuario"],
         "description": "",
         "parameters": [
           {
@@ -66,7 +66,7 @@
         "responses": {}
       },
       "delete": {
-        "tags": [],
+        "tags": ["Usuario"],
         "description": "",
         "parameters": [
           {
@@ -83,7 +83,7 @@
         }
       },
       "patch": {
-        "tags": [],
+        "tags": ["Usuario"],
         "description": "",
         "parameters": [
           {
@@ -120,7 +120,7 @@
     },
     "/usuario/email/{email}": {
       "delete": {
-        "tags": [],
+        "tags": ["Usuario"],
         "description": "",
         "parameters": [
           {
